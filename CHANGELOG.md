@@ -4,6 +4,24 @@
 
 [1]: https://pypi.org/project/google-cloud-storage/#history
 
+## [1.31.0](https://www.github.com/googleapis/python-storage/compare/v1.30.0...v1.31.0) (2020-08-24)
+
+
+### Features
+
+* pass 'client_options' to base class ctor ([#225](https://www.github.com/googleapis/python-storage/issues/225)) ([e1f91fc](https://www.github.com/googleapis/python-storage/commit/e1f91fcca6c001bc3b0c5f759a7a003fcf60c0a6)), closes [#210](https://www.github.com/googleapis/python-storage/issues/210)
+* rename 'Blob.download_as_{string,bytes}', add 'Blob.download_as_text' ([#182](https://www.github.com/googleapis/python-storage/issues/182)) ([73107c3](https://www.github.com/googleapis/python-storage/commit/73107c35f23c4a358e957c2b8188300a7fa958fe))
+
+
+### Bug Fixes
+
+* extract hashes correctly during download ([#238](https://www.github.com/googleapis/python-storage/issues/238)) ([23cfb65](https://www.github.com/googleapis/python-storage/commit/23cfb65c3a3b10759c67846e162e4ed77a3f5307))
+
+
+### Documentation
+
+* update docs build (via synth) ([#222](https://www.github.com/googleapis/python-storage/issues/222)) ([4c5adfa](https://www.github.com/googleapis/python-storage/commit/4c5adfa6e05bf018d72ee1a7e99679fd55f2c662))
+
 ## [1.30.0](https://www.github.com/googleapis/python-storage/compare/v1.29.0...v1.30.0) (2020-07-24)
 
 
